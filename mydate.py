@@ -12,6 +12,10 @@ def formattime(secs:int) -> str:
 
 def test():
     print("Testing the functions")
-    sunrise:datetime =  datetime.fromisoformat("2026-09-15T07:59:52+02:00")
-    sunset:datetime = datetime.fromisoformat("2026-09-15T20:25:22+02:00")
-    print(f"Calculated day duration: {formattime(difftime(sunrise, sunset))}")
+    t1:str = "2026-09-15T07:59:52+02:00"
+    t2:str = "2026-09-15T20:25:22+02:00"
+    dt1:datetime =  datetime.fromisoformat(t1)
+    dt2:datetime = datetime.fromisoformat(t2)
+    print(f"Datetime1: {dt1.strftime("%X")}")
+    print(f"Datetime2: {dt2.strftime("%X")}")
+    print(f"Time difference: {formattime(difftime(dt1, dt2))}")

@@ -1,3 +1,3 @@
 import mydate
 
-mydate.test();
+mydate.test()
