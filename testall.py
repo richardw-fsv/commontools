@@ -1,0 +1,3 @@
+import mydate
+
+mydate.test();
