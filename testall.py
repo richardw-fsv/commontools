@@ -1,3 +1,0 @@
-import mydate
-
-mydate.test()
