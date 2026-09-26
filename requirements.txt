@@ -1,6 +1,13 @@
 certifi==2026.7.22
 charset-normalizer==3.5.1
 idna==3.20
+inputimeout==1.0.4
+jaraco.classes==3.4.0
+jaraco.context==6.1.2
+jaraco.functools==4.6.0
+keyring==25.7.0
+more-itertools==11.1.0
+pywin32-ctypes==0.2.3
 requests==2.34.2
 setuptools==84.0.0
 urllib3==2.8.0
